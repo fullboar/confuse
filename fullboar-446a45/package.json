@@ -14,5 +14,9 @@
     "preinstall": "node hack.js"
   },
   "author": "Jason C. Leach <jason.leach@fullboar.ca",
-  "license": "Apache License 2.0"
+  "license": "Apache License 2.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
