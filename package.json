@@ -1,0 +1,19 @@
+{
+  "name": "@fullboar/hello",
+  "version": "0.0.1",
+  "description": "Test for dependence confusion.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason C. Leach <jason.leach@fullboar.ca",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "fullboar-446a45": "file:./fullboar-446a45"
+  }
+}
